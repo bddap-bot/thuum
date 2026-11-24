@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "sources": [
+    "https://www.thuum.org/learn/practice/shouts.php",
+    "https://en.uesp.net/wiki/Skyrim:Dragon_Shouts"
+  ],
+  "shouts": [
+    {"id": "animal_allegiance", "expansion": "base", "words": ["raan", "mir", "tah"]},
+    {"id": "aura_whisper", "expansion": "base", "words": ["laas", "yah", "nir"]},
+    {"id": "battle_fury", "expansion": "dragonborn", "words": ["mid", "vur", "shaan"]},
+    {"id": "become_ethereal", "expansion": "base", "words": ["feim", "zii", "gron"]},
+    {"id": "bend_will", "expansion": "dragonborn", "words": ["gol", "hah", "dov"]},
+    {"id": "call_dragon", "expansion": "base", "words": ["od", "ah", "viing"]},
+    {"id": "call_of_valor", "expansion": "base", "words": ["hun", "kaal", "zoor"]},
+    {"id": "call_durnehviir", "expansion": "dawnguard", "words": ["dur", "neh", "viir"]},
+    {"id": "clear_skies", "expansion": "base", "words": ["lok", "vah", "koor"]},
+    {"id": "cyclone", "expansion": "dragonborn", "words": ["ven", "gaar", "nos"]},
+    {"id": "disarm", "expansion": "base", "words": ["zun", "haal", "viik"]},
+    {"id": "dismay", "expansion": "base", "words": ["faas", "ru", "maar"]},
+    {"id": "dragon_aspect", "expansion": "dragonborn", "words": ["mul", "qah", "diiv"]},
+    {"id": "dragonrend", "expansion": "base", "words": ["joor", "zah", "frul"]},
+    {"id": "drain_vitality", "expansion": "dawnguard", "words": ["gaan", "lah", "haas"]},
+    {"id": "elemental_fury", "expansion": "base", "words": ["su", "grah", "dun"]},
+    {"id": "fire_breath", "expansion": "base", "words": ["yol", "toor", "shul"]},
+    {"id": "frost_breath", "expansion": "base", "words": ["fo", "krah", "diin"]},
+    {"id": "ice_form", "expansion": "base", "words": ["iiz", "slen", "nus"]},
+    {"id": "kynes_peace", "expansion": "base", "words": ["kaan", "drem", "ov"]},
+    {"id": "marked_for_death", "expansion": "base", "words": ["krii", "lun", "aus"]},
+    {"id": "slow_time", "expansion": "base", "words": ["tiid", "klo", "ul"]},
+    {"id": "soul_tear", "expansion": "dawnguard", "words": ["rii", "vaaz", "zol"]},
+    {"id": "storm_call", "expansion": "base", "words": ["strun", "bah", "qo"]},
+    {"id": "throw_voice", "expansion": "base", "words": ["zul", "mey", "gut"]},
+    {"id": "unrelenting_force", "expansion": "base", "words": ["fus", "ro", "dah"]},
+    {"id": "whirlwind_sprint", "expansion": "base", "words": ["wuld", "nah", "kest"]}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "shouts": {
+    "animal_allegiance": {"file": "Skyrim.esm", "id": "0x05FC77"},
+    "aura_whisper": {"file": "Skyrim.esm", "id": "0x07097B"},
+    "battle_fury": {"file": "Dragonborn.esm", "id": "0x02AD09"},
+    "become_ethereal": {"file": "Skyrim.esm", "id": "0x032920"},
+    "bend_will": {"file": "Dragonborn.esm", "id": "0x0179D8"},
+    "call_dragon": {"file": "Skyrim.esm", "id": "0x046B8C"},
+    "call_durnehviir": {"file": "Dawnguard.esm", "id": "0x0030D2"},
+    "call_of_valor": {"file": "Skyrim.esm", "id": "0x05196A"},
+    "clear_skies": {"file": "Skyrim.esm", "id": "0x03CD34"},
+    "cyclone": {"file": "Dragonborn.esm", "id": "0x0200C0"},
+    "disarm": {"file": "Skyrim.esm", "id": "0x070981"},
+    "dismay": {"file": "Skyrim.esm", "id": "0x02395A"},
+    "dragon_aspect": {"file": "Dragonborn.esm", "id": "0x01DF92"},
+    "dragonrend": {"file": "Skyrim.esm", "id": "0x044250"},
+    "drain_vitality": {"file": "Dawnguard.esm", "id": "0x008A62"},
+    "elemental_fury": {"file": "Skyrim.esm", "id": "0x032921"},
+    "fire_breath": {"file": "Skyrim.esm", "id": "0x03F9EA"},
+    "frost_breath": {"file": "Skyrim.esm", "id": "0x05D16B"},
+    "ice_form": {"file": "Skyrim.esm", "id": "0x070980"},
+    "kynes_peace": {"file": "Skyrim.esm", "id": "0x07097E"},
+    "marked_for_death": {"file": "Skyrim.esm", "id": "0x07097C"},
+    "slow_time": {"file": "Skyrim.esm", "id": "0x048AC9"},
+    "soul_tear": {"file": "Dawnguard.esm", "id": "0x007CB6"},
+    "storm_call": {"file": "Skyrim.esm", "id": "0x07097D"},
+    "throw_voice": {"file": "Skyrim.esm", "id": "0x07097F"},
+    "unrelenting_force": {"file": "Skyrim.esm", "id": "0x013E07"},
+    "whirlwind_sprint": {"file": "Skyrim.esm", "id": "0x02F7BA"}
+  }
+}
