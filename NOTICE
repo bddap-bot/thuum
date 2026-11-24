@@ -207,6 +207,8 @@ tract-linalg 0.22.4  [MIT]  (offered: MIT OR Apache-2.0)
     Copyright (c) Mathieu Poumeyrol <kali@zoy.org>
 tract-nnef 0.22.4  [MIT]  (offered: MIT OR Apache-2.0)
     Copyright (c) Mathieu Poumeyrol <kali@zoy.org>
+    embeds the NNEF standard library (stdlib.nnef)  [Apache-2.0]
+    Copyright (c) 2017 The Khronos Group Inc.
 tract-onnx 0.22.4  [MIT]  (offered: MIT OR Apache-2.0)
     Copyright (c) Mathieu Poumeyrol <kali@zoy.org>
 tract-onnx-opl 0.22.4  [MIT]  (offered: MIT OR Apache-2.0)
@@ -972,7 +974,8 @@ Lesser General Public License for more details.
 
 ----------------------------------------------------------------------
 Apache License 2.0
-(applies to the crates marked [Apache-2.0] above: prost, safetensors)
+(applies to the items marked [Apache-2.0] above: prost, safetensors, and the
+NNEF standard library in tract-nnef)
 ----------------------------------------------------------------------
 Apache License
 Version 2.0, January 2004
