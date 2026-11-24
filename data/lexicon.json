@@ -180,7 +180,7 @@
       "flite_phones": [
         "g",
         "r",
-        "aw",
+        "aa",
         "n"
       ]
     },
@@ -233,7 +233,7 @@
     {
       "word": "od",
       "ipa": "oʊd",
-      "espeak_phonemes": "od",
+      "espeak_phonemes": "oUd",
       "piper_phonemes": [
         "o",
         "ʊ",
@@ -751,7 +751,7 @@
     {
       "word": "toor",
       "ipa": "tuːr",
-      "espeak_phonemes": "tO:r",
+      "espeak_phonemes": "tu:r",
       "piper_phonemes": [
         "t",
         "u",
@@ -796,7 +796,7 @@
     {
       "word": "krah",
       "ipa": "krɑː",
-      "espeak_phonemes": "kA:",
+      "espeak_phonemes": "krA:",
       "piper_phonemes": [
         "k",
         "r",
