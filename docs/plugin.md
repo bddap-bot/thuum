@@ -44,10 +44,10 @@ The build embeds the pinned classifier, so tests need it too. `THUUM_CLASSIFIER`
 
 ```sh
 mkdir -p .scratch
-curl -L --fail -o .scratch/hold-classifier-accent-r2.onnx \
+curl -L --fail -o .scratch/hold-classifier-accent-r3.onnx \
   "$(python3 -c 'import json; print(json.load(open("data/hold-classifier.json"))["url"])')"
 cd plugin
-THUUM_CLASSIFIER=../.scratch/hold-classifier-accent-r2.onnx nix-shell shell.nix --run 'cargo test'
+THUUM_CLASSIFIER=../.scratch/hold-classifier-accent-r3.onnx nix-shell shell.nix --run 'cargo test'
 ```
 
 Windows builds, run inside the same shell:

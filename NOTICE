@@ -275,7 +275,7 @@ Source: https://gcc.gnu.org/
 
 5. Speech model
 ---------------
-The embedded hold classifier (hold-classifier-accent-r2.onnx) is a modified version
+The embedded hold classifier (hold-classifier-accent-r3.onnx) is a modified version
 of the Moonshine base speech encoder: its weights were fine-tuned and a new
 output layer was added for the dragon-word vocabulary.
 Original model: Moonshine base, https://huggingface.co/UsefulSensors/moonshine-base

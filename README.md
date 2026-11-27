@@ -18,10 +18,10 @@ Prerequisites: Linux with [Nix](https://nixos.org/download/) and a `nixpkgs` cha
 pip install -r requirements-dev.txt
 python3 -m unittest discover -s tests
 python3 -m thuum package out
-cd plugin && THUUM_CLASSIFIER=../.scratch/hold-classifier-accent-r2.onnx nix-shell shell.nix --run 'cargo test'
+cd plugin && THUUM_CLASSIFIER=../.scratch/hold-classifier-accent-r3.onnx nix-shell shell.nix --run 'cargo test'
 ```
 
-`package` downloads the pinned classifier from this repository's [release](https://github.com/bddap-bot/thuum/releases/tag/hold-classifier-accent-r2) and checks its SHA-256, builds `thuum.dll`, writes `thuum.esp` and zips both into `out/thuum-<version>.zip`; the plugin's tests then use the classifier it fetched into `.scratch/`. See [Package](docs/package.md) and [Game plugin](docs/plugin.md).
+`package` downloads the pinned classifier from this repository's [release](https://github.com/bddap-bot/thuum/releases/tag/hold-classifier-accent-r3) and checks its SHA-256, builds `thuum.dll`, writes `thuum.esp` and zips both into `out/thuum-<version>.zip`; the plugin's tests then use the classifier it fetched into `.scratch/`. See [Package](docs/package.md) and [Game plugin](docs/plugin.md).
 
 ## Documentation
 

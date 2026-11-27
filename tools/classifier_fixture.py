@@ -12,10 +12,12 @@ from thuum.table import load_table
 
 ROOT = Path(__file__).resolve().parent.parent
 TESTS = ROOT / "plugin" / "tests"
-CLIPS = {"fus.wav": "[[fu:s]]", "fus-ro-dah.wav": "[[fu:s ro:U dA:]]"}
+LEXICON = {e["word"]: e["espeak_phonemes"] for e in json.loads((ROOT / "data" / "lexicon.json").read_text())["entries"]}
+CLIPS = {"fus.wav": ["fus"], "fus-ro-dah.wav": ["fus", "ro", "dah"]}
 
 
-def synthesize(path, phonemes):
+def synthesize(path, words):
+    phonemes = "[[" + " ".join(LEXICON[w] for w in words) + "]]"
     speech = subprocess.run(["espeak-ng", "-v", "en-us", "-s", "140", "--stdout", phonemes], capture_output=True, check=True).stdout
     subprocess.run(["sox", "-t", "wav", "-", "-r", "16000", "-c", "1", "-b", "16", str(path), "pad", "0.4", "0.3"], input=speech, check=True)
 
@@ -25,8 +27,8 @@ def main():
     phrases = load_table()
     session = ort.InferenceSession(sys.argv[1], providers=["CPUExecutionProvider"])
     clips = {}
-    for name, phonemes in CLIPS.items():
-        synthesize(TESTS / name, phonemes)
+    for name, words in CLIPS.items():
+        synthesize(TESTS / name, words)
         with wave.open(str(TESTS / name)) as w:
             pcm = np.frombuffer(w.readframes(w.getnframes()), "<i2").astype(np.float32)
         x = np.zeros(max(len(pcm), pin["min_samples"]), np.float32)
